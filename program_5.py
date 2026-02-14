@@ -5,6 +5,9 @@
 # When the loop finishes, the program should display the amount that the 
 # user is over or under budget.
 
+#Author: Sam Gaines
+#Date: 2/13/2026
+#Title: Bank Balance
 def main():
     budget = 0.0
     difference = 0.0
