@@ -8,6 +8,10 @@
 # After all iterations, the program should display the number of months, 
 # the total inches of rainfall, and the average rainfall per month for the entire period.
 
+#Author: Sam Gaines
+#Date: 2/13/2026
+#Title: Average Rainfall
+
 def main():
     ######################
     years=int(input("Enter number of years: "))
