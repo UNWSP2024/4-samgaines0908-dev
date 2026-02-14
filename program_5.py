@@ -12,7 +12,20 @@ def main():
     total = 0.0
 
     ######################
-    # WRITE YOUR CODE HERE
+    budget=float(input("Enter your budget: ")) #User enter Budget
+    total_expenses= 0.0
+    while True:
+        expenses = float(input("Enter your expenses( or 0 to finsh): ")) #User enter expenses
+        if expenses == 0:
+            break #Stops loop when 0 is entered
+        total_expenses += expenses
+    difference= total_expenses - budget
+    if difference > 0:
+        print(f" You are over budget by ${difference:.2f}.")  #Tells user if over budget
+    elif difference < 0:
+        print(f" You are under budget by ${abs(difference):.2f}"" Congrats") #Tells user if under budget
+    else:
+        print("You are exactly on budget" " Be careful") #Tells user when still on budget
     ######################
 
 
