@@ -19,7 +19,7 @@ def main():
         # Inner loop for each month
         for month in range(1, 13):  # 1 to 12 for each month
             rainfall = float(input(f"  Enter the rainfall (in inches) for month {month}: "))
-            total_rainfall += rainfall  # Add the rainfall to the total
+            total_rainfall += rainfall  # Add the rainfall to the total 
             total_months += 1  # Increment the total month count
 
         # Calculate the average rainfall
