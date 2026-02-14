@@ -4,6 +4,9 @@
 # At the end of the program it prints out the total number of tickets desired by the user.  
 # Use either a "for loop" or "while loop" to accomplish this.
 
+#Author: Sam Gaines
+#Date: 2/13/2026
+#Title: Movie Tix
 def main():
     ######################
     total_tickets = 0
