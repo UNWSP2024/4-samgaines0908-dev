@@ -10,7 +10,7 @@ def main():
     while True:
         movie_name = input("Enter movie name(or type 'done' when finished): ")
         if movie_name == 'done':
-            break
+            break 
         try:
            tickets = input(f"how many tickets for {movie_name}? ")
            total_tickets=total_tickets+int(tickets)
